@@ -13,7 +13,7 @@ int main(int argc, char* argv[]){
         exit(1);
     }
 
-    while(fscanf(arq_txt,"%[^n]\n", &txt) != EOF){
+    while(fscanf(arq_txt,"%[^\n]\n", &txt) != EOF){
         printf("%s\n", txt);
     }
    
