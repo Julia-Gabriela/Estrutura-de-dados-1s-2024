@@ -32,7 +32,7 @@ int qnt_nos(No* H){
 }
 No* copiar_lista(No* H){
     if(H != NULL){
-        return no H->valor, copiar_lista( H->proximo_no);
+        return no(H->valor, copiar_lista( H->proximo_no));
     }
     return NULL;
 }

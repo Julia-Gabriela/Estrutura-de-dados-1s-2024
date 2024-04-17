@@ -6,7 +6,7 @@ int main(int argc, char* argv[]){
 
     No* H = no('A', no('B', no('C', no('D', no('E', no('F', NULL))))));
     No* Hc = copiar_lista(H);
-/*
+
     No* H = no('A', NULL);
     No* n2 = no('B', NULL);
     No* n3 = no('C', NULL);
@@ -19,7 +19,7 @@ int main(int argc, char* argv[]){
     inserir_no(H, n4);
     inserir_no(H, n5);
     inserir_no(H, n6);
-*/
+
     imprimir_lista(H);
     printf("\n");
     imprimir_lista(Hc);
