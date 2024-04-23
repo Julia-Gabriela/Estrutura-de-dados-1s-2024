@@ -22,7 +22,11 @@ int main(int argc, char* argv[]){
     liberar_lista(Hc);
     
     printf("\n qtd = %d", quantidade_nos(H));
-    printf("\n copia qtd = %d", quantidade_nos(Hc));
+    
+    printf("\nB existe na lista? %d\n", verificar_existencia(H,'X'));
+    printf("\nB occore quantas vezes na lista? %d\n", verificar_ocorrencias(H,'X'));
+
+    imprimir_inversa(H);
 
     exit(0);
 }
