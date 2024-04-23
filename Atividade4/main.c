@@ -11,21 +11,28 @@ int main(int argc, char *argv[])
     char letra, resultado_busca;
     int posicao;
 
+    printf("\nlista original\n");
     imprimir_lista(H);
     printf("\n copia\n");
     imprimir_lista(Hc);
 
-    // H->proximo_no->valor = 'X';
-    // Hc->valor = 'U';
+    /*
+    H->proximo_no->valor = 'X';
+    Hc->valor = 'U';
 
     printf("\n");
+    printf("\nLista modificada\n");
     imprimir_lista(H);
-    printf("\n copia\n");
+    printf("\ncopia da lista modificada\n");
     imprimir_lista(Hc);
+    */
+    printf("\nLista inversa\n");
+    lista_imprimir_inversa(H);
+    printf("\n");
 
     liberar_lista(Hc);
 
-    printf("\n qtd = %d\n", quantidade_nos(H));
+    printf("\nQuantidade = %d\n", quantidade_nos(H));
 
     printf("\nDigite a Letra que deseja verificar?: ");
     scanf("%c", &letra);
@@ -34,18 +41,16 @@ int main(int argc, char *argv[])
 
     if (resultado_busca)
     {
-        printf("\nEncontrou");
+        printf("\nEncontrou %c", letra);
     }
     else
     {
-        printf("\nNao encontrado");
+        printf("\nNao encontrado %c", letra);
     }
 
     printf("\nOcorrencias: %d", lista_verificar_ocorrencias(H, letra));
 
-    printf("\nLista inversa");
-    lista_imprimir_inversa(H);
-    printf("\n");
+    
 
     printf("\nDigite a letra do novo no:");
     scanf(" %c", &letra);
