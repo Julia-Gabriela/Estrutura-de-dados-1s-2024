@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Faculdade/2_semestre/Estrutura-de-dados-1s-2024/ola",
-      "program": "d:/Faculdade/2_semestre/Estrutura-de-dados-1s-2024/ola/build/Debug/outDebug",
+      "cwd": "d:/Faculdade/2_semestre/Estrutura-de-dados-1s-2024/Trabalho1",
+      "program": "d:/Faculdade/2_semestre/Estrutura-de-dados-1s-2024/Trabalho1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
